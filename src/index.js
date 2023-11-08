@@ -1,6 +1,6 @@
-import { ThemeProvider } from '@ui5/webcomponents-react';
+import {ThemeProvider} from '@ui5/webcomponents-react';
 import React from 'react';
-import { createRoot } from 'react-dom/client';
+import {createRoot} from 'react-dom/client';
 import App from './App';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
@@ -9,9 +9,9 @@ const container = document.getElementById('root');
 const root = createRoot(container);
 
 root.render(
-  <ThemeProvider>
-    <App />
-  </ThemeProvider>
+	<ThemeProvider>
+		<App />
+	</ThemeProvider>,
 );
 
 // If you want to start measuring performance in your app, pass a function
