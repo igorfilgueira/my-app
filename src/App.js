@@ -1,11 +1,12 @@
 /* eslint-disable react/react-in-jsx-scope */
 import {MyApp} from './MyApp';
+import {HashRouter} from 'react-router-dom';
 
 function App() {
 	return (
-		<>
+		<HashRouter>
 			<MyApp />
-		</>
+		</HashRouter>
 	);
 }
 
